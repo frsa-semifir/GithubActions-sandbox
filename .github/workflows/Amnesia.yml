@@ -1,8 +1,10 @@
 name: Amnesia
+
 # Event trigger qui implique de déclencher le worklow à la main
 on: workflow_dispatch
 env:
   NAME: Francois
+
 jobs:
   say_hello:
     runs-on: ubuntu-latest
@@ -15,6 +17,7 @@ jobs:
         DAY: Lundi
       - name: "Lundi ?"
       run: echo "Quel jour sommmes nous ? $DAY ?"
+      
   say_goodbye:
     runs-on: ubuntu-latest
     steps:
