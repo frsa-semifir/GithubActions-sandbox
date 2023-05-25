@@ -1,5 +1,5 @@
 name: Amnesia
-// Event trigger qui implique de déclencher le worklow à la main
+# Event trigger qui implique de déclencher le worklow à la main
 on: workflow_dispatch
 env:
   NAME: Francois
