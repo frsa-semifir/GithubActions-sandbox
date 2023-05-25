@@ -12,7 +12,7 @@ jobs:
       ENTREPRISE: Semifir
     steps:
     - name: "Dit bonjour"
-      run : echo "Salut $NAME ! Tu travailles $ENTREPRISE ? Alors bon $DAY à toi !"
+      run : echo "Salut $NAME ! Tu travailles bien chez $ENTREPRISE ? Alors bon $DAY à toi !"
       env:
         DAY: Lundi
     - name: "Lundi ?"
