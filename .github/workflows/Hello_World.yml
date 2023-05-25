@@ -4,6 +4,6 @@ jobs:
   say-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Hello-World
-        run : echo Hello World ! <3
+    - uses: actions/checkout@v3
+    - name: Hello-World
+      run : echo Hello World ! <3
